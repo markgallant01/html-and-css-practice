@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <fieldset>
+        <legend>Add user</legend>
+
+        <!-- Basic Information -->
+        <div>
+          <label for="firstName">First name</label>
+          <input type="text" id="firstName" name="first_name">
+        </div>
+
+        <div>
+          <label for="lastName">Last name</label>
+          <input type="text" id="lastName" name="last_name">
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email_address">
+        </div>
+
+        <!-- Drop-down Menu -->
+        <div>
+          <label for="status">Status</label>
+          <select id="status" name="status">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="guest">Guest</option>
+          </select>
+        </div>
+        
+        <!-- Radio Buttons -->
+        <div>
+          <p>Choose your favorite programming language:</p>
+          <input type="radio" name="fave" id="html" value="html">
+          <label for="html">HTML</label>
+          <input type="radio" name="fave" id="css" value="css">
+          <label for="css">CSS</label>
+          <input type="radio" name="fave" id="javascript" value="javascript">
+          <label for="javascript">JavaScript</label>
+        </div>
+
+        <!-- Additional Information -->
+        <div>
+          <label for="comments">Comments</label>
+          <textarea id="comments"></textarea>
+          <label for="date">Current Date</label>
+          <input type="date" id="date" value="date">
+        </div>
+
+        <!-- Checkboxes -->
+        <div>
+          <label for="newsletter">Sign up for newsletter</label>
+          <input type="checkbox" id="newsletter">
+          <label for="terms">Agree to terms and conditions</label>
+          <input type="checkbox" id="terms">
+          <button type="submit">Submit</button>
+        </div>
+
+      </fieldset>
+    </form>
+  </body>
+</html>
+
