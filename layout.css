@@ -1,1 +1,75 @@
+/* default stuff */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* classes */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 40px;
+  background-color: #52a2da;
+}
+
+/* chunk-1 */
+#chunk-1 {
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
+}
+
+/* chunk-2 */
+#chunk-2 {
+  width: 100%;
+  height: 600px;
+  background-color: #f8f9fa;
+}
+
+/* chunk-3 */
+#chunk-3 {
+  width: 100%;
+  height: 600px;
+  background-color: #e9ecef;
+}
+
+#chunk-4 {
+  width: 100%;
+  height: 600px;
+  background-color: #f8f9fa;
+}
+
+#chunk-5 {
+  width: 100%;
+  height: 600px;
+  background-color: #e9ecef;
+}
+
+#chunk-6 {
+  width: 100%;
+  height: 600px;
+  background-color: #f8f9fa;
+}
+
+#chunk-7 {
+  width: 100%;
+  height: 600px;
+  background-color: #e9ecef;
+}
+
+footer {
+  width: 100%;
+  height: 600px;
+  background-color: #343a40;
+}
 
