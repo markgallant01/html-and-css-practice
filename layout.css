@@ -39,10 +39,12 @@ header {
 
 #header-icon {
   margin-left: 20px;
+  margin-right: 5px;
 }
 
 #header-link {
   margin-left: 20px;
+  margin-right: 10px;
   text-decoration: none;
   font-family: sans-serif;
   color: #17a;
@@ -67,10 +69,11 @@ nav {
 
 nav ul {
   list-style-type: none;
+  margin: 0 5px;
 }
 
 nav li {
-  padding: 0 10px;
+  margin: 0 10px;
 }
 
 nav li a {
@@ -83,14 +86,14 @@ nav li a {
 
 #sidebar {
   height: 100%;
-  width: 280px;
+  width: 200px;
   border-right: 1px dotted #ccc;
 }
 
 #sidebar ul {
   list-style-type: none;
-  margin-top: 20px;
-  margin-left: 15px;
+  margin-top: 23px;
+  margin-left: 16px;
 }
 
 #sidebar li {
@@ -101,4 +104,33 @@ nav li a {
   text-decoration: none;
 }
 
+/* content */
+
+#content {
+  border: 1px solid black;
+  width: 800px;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+
+#content h1 {
+  font-size: 1.4em;
+  margin-top: 9px;
+  margin-bottom: 15px;
+}
+
+#content h2 {
+  font-size: 1.3em;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+#content p {
+  margin-bottom: 15px;
+}
+
+#content ul {
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
 
