@@ -1,0 +1,62 @@
+fieldset {
+  width: 700px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 13px;
+}
+
+button {
+}
+
+.flex {
+  display: flex;
+}
+
+.fcontainer {
+  flex-direction: column;
+  width: 220px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+#contact-info-group {
+  flex-direction: column;
+  text-align: center;
+}
+
+#contact-info-group label {
+  padding-top: 5px;
+}
+
+#misc-info-group {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#misc-info-group div {
+  flex-direction: column;
+  text-align: center;
+  width: 47%;
+  padding-top: 5px;
+}
+
+#radio-group {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#add-info {
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+#checkboxes {
+  padding: 5px 0;
+}
+
+#checkboxes label {
+  font-size: 13px;
+}
+

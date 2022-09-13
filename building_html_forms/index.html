@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="layout.css">
+  </head>
+  <body>
+
+    <form action="" method="post">
+      <fieldset>
+        <legend>Add user</legend>
+
+        <div class="fcontainer flex">
+        
+          <!-- Basic Information -->
+          <div id="contact-info-group" class="flex">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="first_name">
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="last_name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email_address">
+          </div>
+
+          <div id="misc-info-group" class="flex">
+            <div class="flex">
+              <label for="status">Status:</label>
+              <input type="text" id="status" name="status">
+            </div>
+            <div class="flex">
+              <label for="date">Date:</label>
+              <input type="text" id="date" name="date">
+            </div>
+          </div>
+              
+          <!-- Radio Buttons -->
+          <p>Choose your favorite language:</p>
+          <div id="radio-group" class="flex">
+            <input type="radio" name="fave" id="html" value="html">
+            <label for="html">HTML</label>
+            <input type="radio" name="fave" id="css" value="css">
+            <label for="css">CSS</label>
+            <input type="radio" name="fave" id="javascript" value="javascript">
+            <label for="javascript">JS</label>
+          </div>
+
+          <!-- Additional Information -->
+          <div id="add-info" class="flex">
+            <label for="comments">Comments</label>
+            <textarea id="comments"></textarea>
+          </div>
+
+          <!-- Checkboxes -->
+          <div id="checkboxes" class="flex">
+            <input type="checkbox" id="newsletter">
+            <label for="newsletter">Sign up for news</label>
+            <input type="checkbox" id="terms">
+            <label for="terms">Agree to terms</label>
+          </div>
+
+          <button type="submit">Submit</button>
+
+        </div> <!-- fcontainer -->
+
+      </fieldset>
+    </form>
+
+  </body>
+</html>
+
