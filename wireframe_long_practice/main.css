@@ -1,0 +1,52 @@
+* {
+  display: border-box;
+}
+
+/* Header */
+
+.header {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.upper__right {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+}
+
+.upper__right a {
+  display: inline-block;
+  color: green;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.get-started {
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.nav__lower {
+  width: 90%;
+  margin: 45px auto 0 auto;
+  text-align: center;
+}
+
+.nav__lower a {
+  padding: 0 76px;
+  color: grey;
+}
+
+/* content */
+.content {
+  border: 1px solid black;
+  width: 50%;
+  margin: 0 auto;
+}
+
