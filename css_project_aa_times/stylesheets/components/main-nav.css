@@ -1,1 +1,11 @@
 /* Your code here */
+.navbar__list {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.navbar__list li {
+  font-size: 12px;
+  margin: 0 7px;
+}
