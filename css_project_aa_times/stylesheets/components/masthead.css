@@ -1,0 +1,97 @@
+/* Your code here */
+.masthead {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr, 20px, 1fr;
+}
+
+.masthead__menu-and-search {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  height: 50px;
+  padding-left: 20px;
+}
+
+.masthead__menu-button {
+  font-size: 11px;
+  padding: 7px 9px;
+}
+
+.masthead__menu-button:hover {
+  background-color: #f7f7f5;
+}
+
+.masthead__actions {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  justify-content: flex-end;
+}
+
+.masthead__technologies {
+  display: flex;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  justify-content: center;
+}
+
+.masthead__technologies > div {
+  align-items: center;
+  background-color: white;
+  border-left: 1px solid #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+  position: relative;
+  top: 1px;
+  width: 180px;
+}
+
+.masthead__technologies span {
+  color: #6f6f6f;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.masthead__date {
+  align-items: flex-end;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+  display: flex;
+  font-size: 11px;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  justify-content: flex-start;
+  padding-bottom: 11px;
+}
+
+.masthead__logo {
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+  display: flex;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  justify-content: center;
+  padding: 25px 0 11px 0;
+}
+
+.masthead__paper {
+  align-items: flex-end;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+  display: flex;
+  font-size: 11px;
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  justify-content: flex-end;
+  padding-bottom: 11px;
+}
+
